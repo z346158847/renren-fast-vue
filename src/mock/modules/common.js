@@ -3,7 +3,7 @@ import Mock from 'mockjs'
 // 登录
 export function login () {
   return {
-    // isOpen: false,
+    isOpen: true,
     url: '/sys/login',
     type: 'post',
     data: {
@@ -18,7 +18,7 @@ export function login () {
 // 退出
 export function logout () {
   return {
-    // isOpen: false,
+    isOpen: true,
     url: '/sys/logout',
     type: 'post',
     data: {
